@@ -20,6 +20,12 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>github.com/JuliaPlots/Makie.jl.git/documentation/backends_and_output/figure_size/index.html</loc>
+    <lastmod>2021-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>github.com/JuliaPlots/Makie.jl.git/examples/layoutables/toggle/index.html</loc>
     <lastmod>2021-08-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -63,6 +69,12 @@
 </url>
 <url>
     <loc>github.com/JuliaPlots/Makie.jl.git/examples/plotting_functions/image/index.html</loc>
+    <lastmod>2021-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>github.com/JuliaPlots/Makie.jl.git/documentation/latex/index.html</loc>
     <lastmod>2021-08-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -164,12 +176,6 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>github.com/JuliaPlots/Makie.jl.git/examples/layoutables/layoutables/index.html</loc>
-    <lastmod>2021-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
     <loc>github.com/JuliaPlots/Makie.jl.git/404/index.html</loc>
     <lastmod>2021-08-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -206,7 +212,19 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>github.com/JuliaPlots/Makie.jl.git/documentation/backends_and_output/wglmakie/index.html</loc>
+    <lastmod>2021-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>github.com/JuliaPlots/Makie.jl.git/examples/plotting_functions/streamplot/index.html</loc>
+    <lastmod>2021-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>github.com/JuliaPlots/Makie.jl.git/documentation/theming/predefined_themes/index.html</loc>
     <lastmod>2021-08-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -219,12 +237,6 @@
 </url>
 <url>
     <loc>github.com/JuliaPlots/Makie.jl.git/documentation/colors/index.html</loc>
-    <lastmod>2021-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>github.com/JuliaPlots/Makie.jl.git/examples/layoutables/layouting/index.html</loc>
     <lastmod>2021-08-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -296,6 +308,12 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>github.com/JuliaPlots/Makie.jl.git/documentation/layoutables/index.html</loc>
+    <lastmod>2021-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>github.com/JuliaPlots/Makie.jl.git/documentation/remote/index.html</loc>
     <lastmod>2021-08-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -303,12 +321,6 @@
 </url>
 <url>
     <loc>github.com/JuliaPlots/Makie.jl.git/documentation/events/index.html</loc>
-    <lastmod>2021-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>github.com/JuliaPlots/Makie.jl.git/documentation/wglmakie/index.html</loc>
     <lastmod>2021-08-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -345,12 +357,6 @@
 </url>
 <url>
     <loc>github.com/JuliaPlots/Makie.jl.git/documentation/recipes/index.html</loc>
-    <lastmod>2021-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>github.com/JuliaPlots/Makie.jl.git/documentation/predefined_themes/index.html</loc>
     <lastmod>2021-08-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -405,6 +411,12 @@
 </url>
 <url>
     <loc>github.com/JuliaPlots/Makie.jl.git/documentation/backends_and_output/index.html</loc>
+    <lastmod>2021-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>github.com/JuliaPlots/Makie.jl.git/documentation/layouting/index.html</loc>
     <lastmod>2021-08-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

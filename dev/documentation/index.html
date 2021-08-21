@@ -72,7 +72,7 @@
           </form>
           <h1>Navigation</h1>
           <ul><li><div class="tocitem-container"><a  href="/dev/">Home</a></div></li>
-<li><input class="collapse-toggle" id="menuitem-2" type="checkbox" ><div class="tocitem-container"><a  href="/dev/examples">Examples</a><label class="tocexpander" for="menuitem-2"><i class="docs-chevron"></i></label></div><ul><li><input class="collapse-toggle" id="menuitem-2-1" type="checkbox" ><div class="tocitem-container"><a  href="/dev/examples/layoutables">Layoutables &amp; Widgets</a><label class="tocexpander" for="menuitem-2-1"><i class="docs-chevron"></i></label></div><ul><li><div class="tocitem-container"><a  href="/dev/examples/layoutables/axis">Axis</a></div></li>
+<li><input class="collapse-toggle" id="menuitem-2" type="checkbox" ><div class="tocitem-container"><label class="tocexpander" for="menuitem-2"><i class="docs-chevron"></i></label><a  href="/dev/examples">Examples</a></div><ul><li><input class="collapse-toggle" id="menuitem-2-1" type="checkbox" ><div class="tocitem-container"><label class="tocexpander" for="menuitem-2-1"><i class="docs-chevron"></i></label><a  href="/dev/examples/layoutables">Layoutables &amp; Widgets</a></div><ul><li><div class="tocitem-container"><a  href="/dev/examples/layoutables/axis">Axis</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/examples/layoutables/axis3">Axis3</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/examples/layoutables/box">Box</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/examples/layoutables/button">Button</a></div></li>
@@ -80,15 +80,13 @@
 <li><div class="tocitem-container"><a  href="/dev/examples/layoutables/gridlayout">GridLayout</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/examples/layoutables/intervalslider">IntervalSlider</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/examples/layoutables/label">Label</a></div></li>
-<li><div class="tocitem-container"><a  href="/dev/examples/layoutables/layoutables"><code>Layoutables</code></a></div></li>
-<li><div class="tocitem-container"><a  href="/dev/examples/layoutables/layouting">How layouts work</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/examples/layoutables/legend">Legend</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/examples/layoutables/lscene">LScene</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/examples/layoutables/menu">Menu</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/examples/layoutables/slider">Slider</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/examples/layoutables/toggle">Toggle</a></div></li>
 </ul></li>
-<li><input class="collapse-toggle" id="menuitem-2-2" type="checkbox" ><div class="tocitem-container"><a  href="/dev/examples/plotting_functions">Plotting functions</a><label class="tocexpander" for="menuitem-2-2"><i class="docs-chevron"></i></label></div><ul><li><div class="tocitem-container"><a  href="/dev/examples/plotting_functions/arrows">arrows</a></div></li>
+<li><input class="collapse-toggle" id="menuitem-2-2" type="checkbox" ><div class="tocitem-container"><label class="tocexpander" for="menuitem-2-2"><i class="docs-chevron"></i></label><a  href="/dev/examples/plotting_functions">Plotting functions</a></div><ul><li><div class="tocitem-container"><a  href="/dev/examples/plotting_functions/arrows">arrows</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/examples/plotting_functions/band">band</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/examples/plotting_functions/barplot">barplot</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/examples/plotting_functions/boxplot">boxplot</a></div></li>
@@ -120,29 +118,33 @@
 <li><div class="tocitem-container"><a  href="/dev/examples/plotting_functions/wireframe">wireframe</a></div></li>
 </ul></li>
 </ul></li>
-<li><input class="collapse-toggle" id="menuitem-3" type="checkbox" ><div class="tocitem-container"><a  href="/dev/tutorials">Tutorials</a><label class="tocexpander" for="menuitem-3"><i class="docs-chevron"></i></label></div><ul><li><div class="tocitem-container"><a  href="/dev/tutorials/basic-tutorial">Basic Tutorial</a></div></li>
+<li><input class="collapse-toggle" id="menuitem-3" type="checkbox" ><div class="tocitem-container"><label class="tocexpander" for="menuitem-3"><i class="docs-chevron"></i></label><a  href="/dev/tutorials">Tutorials</a></div><ul><li><div class="tocitem-container"><a  href="/dev/tutorials/basic-tutorial">Basic Tutorial</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/tutorials/layout-tutorial">Layout Tutorial</a></div></li>
 </ul></li>
-<li><input class="collapse-toggle" id="menuitem-4" type="checkbox" checked><div class="tocitem-container"><a class = active href="/dev/documentation">Documentation</a><label class="tocexpander" for="menuitem-4"><i class="docs-chevron"></i></label></div><ul class="page-content">
+<li><input class="collapse-toggle" id="menuitem-4" type="checkbox" checked><div class="tocitem-container"><label class="tocexpander" for="menuitem-4"><i class="docs-chevron"></i></label><a class = active href="/dev/documentation">Documentation</a></div><ul class="page-content">
 <li><a href="#documentation">Documentation</a></li>
 </ul>
 <ul><li><div class="tocitem-container"><a  href="/dev/documentation/animation">Animations</a></div></li>
-<li><div class="tocitem-container"><a  href="/dev/documentation/backends_and_output">Backends &amp; Output</a></div></li>
+<li><input class="collapse-toggle" id="menuitem-4-2" type="checkbox" ><div class="tocitem-container"><label class="tocexpander" for="menuitem-4-2"><i class="docs-chevron"></i></label><a  href="/dev/documentation/backends_and_output">Backends &amp; Output</a></div><ul><li><div class="tocitem-container"><a  href="/dev/documentation/backends_and_output/figure_size">Exporting a Figure with physical dimensions</a></div></li>
+<li><div class="tocitem-container"><a  href="/dev/documentation/backends_and_output/wglmakie">JSServe and WGLMakie</a></div></li>
+</ul></li>
 <li><div class="tocitem-container"><a  href="/dev/documentation/cameras">Cameras</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/documentation/colors">Colors</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/documentation/events">Events</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/documentation/faq">Frequently Asked Questions</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/documentation/figure">Figures</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/documentation/inspector">Inspecting Data</a></div></li>
+<li><div class="tocitem-container"><a  href="/dev/documentation/latex">LaTeX</a></div></li>
+<li><div class="tocitem-container"><a  href="/dev/documentation/layoutables">Layoutables</a></div></li>
+<li><div class="tocitem-container"><a  href="/dev/documentation/layouting">How layouts work</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/documentation/lighting">Lighting</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/documentation/nodes">Observables &amp; Interaction</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/documentation/plot_method_signatures">Plot Method Signatures</a></div></li>
-<li><div class="tocitem-container"><a  href="/dev/documentation/predefined_themes">Predefined themes</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/documentation/recipes">Plot Recipes</a></div></li>
-<li><div class="tocitem-container"><a  href="/dev/documentation/remote">Using Makie on a remote server</a></div></li>
+<li><div class="tocitem-container"><a  href="/dev/documentation/remote">Remote servers</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/documentation/scenes">Scenes</a></div></li>
-<li><div class="tocitem-container"><a  href="/dev/documentation/theming">Theming figures</a></div></li>
-<li><div class="tocitem-container"><a  href="/dev/documentation/wglmakie">How to use JSServe &#43; WGLMakie</a></div></li>
+<li><input class="collapse-toggle" id="menuitem-4-18" type="checkbox" ><div class="tocitem-container"><label class="tocexpander" for="menuitem-4-18"><i class="docs-chevron"></i></label><a  href="/dev/documentation/theming">Theming</a></div><ul><li><div class="tocitem-container"><a  href="/dev/documentation/theming/predefined_themes">Predefined themes</a></div></li>
+</ul></li>
 </ul></li>
 </ul>
         </div>
@@ -150,7 +152,7 @@
 
 <!-- Content appended here -->
 <div class="franklin-content"><h1 id="documentation"><a href="#documentation" class="header-anchor">Documentation</a></h1>
-<ul><a href="animation"><li>Animations</li></a><a href="backends_and_output"><li>Backends &amp; Output</li></a><a href="cameras"><li>Cameras</li></a><a href="colors"><li>Colors</li></a><a href="events"><li>Events</li></a><a href="faq"><li>Frequently Asked Questions</li></a><a href="figure"><li>Figures</li></a><a href="inspector"><li>Inspecting Data</li></a><a href="lighting"><li>Lighting</li></a><a href="nodes"><li>Observables &amp; Interaction</li></a><a href="plot_method_signatures"><li>Plot Method Signatures</li></a><a href="predefined_themes"><li>Predefined themes</li></a><a href="recipes"><li>Plot Recipes</li></a><a href="remote"><li>Using Makie on a remote server</li></a><a href="scenes"><li>Scenes</li></a><a href="theming"><li>Theming figures</li></a><a href="wglmakie"><li>How to use JSServe &#43; WGLMakie</li></a></ul>
+<ul><a href="animation"><li>Animations</li></a><a href="backends_and_output"><li>Backends &amp; Output</li></a><a href="cameras"><li>Cameras</li></a><a href="colors"><li>Colors</li></a><a href="events"><li>Events</li></a><a href="faq"><li>Frequently Asked Questions</li></a><a href="figure"><li>Figures</li></a><a href="inspector"><li>Inspecting Data</li></a><a href="latex"><li>LaTeX</li></a><a href="layoutables"><li>Layoutables</li></a><a href="layouting"><li>How layouts work</li></a><a href="lighting"><li>Lighting</li></a><a href="nodes"><li>Observables &amp; Interaction</li></a><a href="plot_method_signatures"><li>Plot Method Signatures</li></a><a href="recipes"><li>Plot Recipes</li></a><a href="remote"><li>Remote servers</li></a><a href="scenes"><li>Scenes</li></a><a href="theming"><li>Theming</li></a></ul>
 <div class="page-foot">
   <div class="copyright">
     &copy; Makie.jl. Last modified: August 21, 2021. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.

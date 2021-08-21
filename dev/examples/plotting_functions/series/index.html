@@ -73,7 +73,7 @@
           </form>
           <h1>Navigation</h1>
           <ul><li><div class="tocitem-container"><a  href="/dev/">Home</a></div></li>
-<li><input class="collapse-toggle" id="menuitem-2" type="checkbox" checked><div class="tocitem-container"><a  href="/dev/examples">Examples</a><label class="tocexpander" for="menuitem-2"><i class="docs-chevron"></i></label></div><ul><li><input class="collapse-toggle" id="menuitem-2-1" type="checkbox" ><div class="tocitem-container"><a  href="/dev/examples/layoutables">Layoutables &amp; Widgets</a><label class="tocexpander" for="menuitem-2-1"><i class="docs-chevron"></i></label></div><ul><li><div class="tocitem-container"><a  href="/dev/examples/layoutables/axis">Axis</a></div></li>
+<li><input class="collapse-toggle" id="menuitem-2" type="checkbox" checked><div class="tocitem-container"><label class="tocexpander" for="menuitem-2"><i class="docs-chevron"></i></label><a  href="/dev/examples">Examples</a></div><ul><li><input class="collapse-toggle" id="menuitem-2-1" type="checkbox" ><div class="tocitem-container"><label class="tocexpander" for="menuitem-2-1"><i class="docs-chevron"></i></label><a  href="/dev/examples/layoutables">Layoutables &amp; Widgets</a></div><ul><li><div class="tocitem-container"><a  href="/dev/examples/layoutables/axis">Axis</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/examples/layoutables/axis3">Axis3</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/examples/layoutables/box">Box</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/examples/layoutables/button">Button</a></div></li>
@@ -81,15 +81,13 @@
 <li><div class="tocitem-container"><a  href="/dev/examples/layoutables/gridlayout">GridLayout</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/examples/layoutables/intervalslider">IntervalSlider</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/examples/layoutables/label">Label</a></div></li>
-<li><div class="tocitem-container"><a  href="/dev/examples/layoutables/layoutables"><code>Layoutables</code></a></div></li>
-<li><div class="tocitem-container"><a  href="/dev/examples/layoutables/layouting">How layouts work</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/examples/layoutables/legend">Legend</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/examples/layoutables/lscene">LScene</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/examples/layoutables/menu">Menu</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/examples/layoutables/slider">Slider</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/examples/layoutables/toggle">Toggle</a></div></li>
 </ul></li>
-<li><input class="collapse-toggle" id="menuitem-2-2" type="checkbox" checked><div class="tocitem-container"><a  href="/dev/examples/plotting_functions">Plotting functions</a><label class="tocexpander" for="menuitem-2-2"><i class="docs-chevron"></i></label></div><ul><li><div class="tocitem-container"><a  href="/dev/examples/plotting_functions/arrows">arrows</a></div></li>
+<li><input class="collapse-toggle" id="menuitem-2-2" type="checkbox" checked><div class="tocitem-container"><label class="tocexpander" for="menuitem-2-2"><i class="docs-chevron"></i></label><a  href="/dev/examples/plotting_functions">Plotting functions</a></div><ul><li><div class="tocitem-container"><a  href="/dev/examples/plotting_functions/arrows">arrows</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/examples/plotting_functions/band">band</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/examples/plotting_functions/barplot">barplot</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/examples/plotting_functions/boxplot">boxplot</a></div></li>
@@ -113,6 +111,11 @@
 <li><a href="#series">series</a></li>
 <li><ul>
 <li><a href="#examples">Examples</a></li>
+<li><ul>
+<li><a href="#matrix">Matrix</a></li>
+<li><a href="#vector_of_vectors">Vector of vectors</a></li>
+<li><a href="#vector_and_matrix">Vector and matrix</a></li>
+</ul>
 </ul>
 </ul>
 </li>
@@ -127,26 +130,30 @@
 <li><div class="tocitem-container"><a  href="/dev/examples/plotting_functions/wireframe">wireframe</a></div></li>
 </ul></li>
 </ul></li>
-<li><input class="collapse-toggle" id="menuitem-3" type="checkbox" ><div class="tocitem-container"><a  href="/dev/tutorials">Tutorials</a><label class="tocexpander" for="menuitem-3"><i class="docs-chevron"></i></label></div><ul><li><div class="tocitem-container"><a  href="/dev/tutorials/basic-tutorial">Basic Tutorial</a></div></li>
+<li><input class="collapse-toggle" id="menuitem-3" type="checkbox" ><div class="tocitem-container"><label class="tocexpander" for="menuitem-3"><i class="docs-chevron"></i></label><a  href="/dev/tutorials">Tutorials</a></div><ul><li><div class="tocitem-container"><a  href="/dev/tutorials/basic-tutorial">Basic Tutorial</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/tutorials/layout-tutorial">Layout Tutorial</a></div></li>
 </ul></li>
-<li><input class="collapse-toggle" id="menuitem-4" type="checkbox" ><div class="tocitem-container"><a  href="/dev/documentation">Documentation</a><label class="tocexpander" for="menuitem-4"><i class="docs-chevron"></i></label></div><ul><li><div class="tocitem-container"><a  href="/dev/documentation/animation">Animations</a></div></li>
-<li><div class="tocitem-container"><a  href="/dev/documentation/backends_and_output">Backends &amp; Output</a></div></li>
+<li><input class="collapse-toggle" id="menuitem-4" type="checkbox" ><div class="tocitem-container"><label class="tocexpander" for="menuitem-4"><i class="docs-chevron"></i></label><a  href="/dev/documentation">Documentation</a></div><ul><li><div class="tocitem-container"><a  href="/dev/documentation/animation">Animations</a></div></li>
+<li><input class="collapse-toggle" id="menuitem-4-2" type="checkbox" ><div class="tocitem-container"><label class="tocexpander" for="menuitem-4-2"><i class="docs-chevron"></i></label><a  href="/dev/documentation/backends_and_output">Backends &amp; Output</a></div><ul><li><div class="tocitem-container"><a  href="/dev/documentation/backends_and_output/figure_size">Exporting a Figure with physical dimensions</a></div></li>
+<li><div class="tocitem-container"><a  href="/dev/documentation/backends_and_output/wglmakie">JSServe and WGLMakie</a></div></li>
+</ul></li>
 <li><div class="tocitem-container"><a  href="/dev/documentation/cameras">Cameras</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/documentation/colors">Colors</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/documentation/events">Events</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/documentation/faq">Frequently Asked Questions</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/documentation/figure">Figures</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/documentation/inspector">Inspecting Data</a></div></li>
+<li><div class="tocitem-container"><a  href="/dev/documentation/latex">LaTeX</a></div></li>
+<li><div class="tocitem-container"><a  href="/dev/documentation/layoutables">Layoutables</a></div></li>
+<li><div class="tocitem-container"><a  href="/dev/documentation/layouting">How layouts work</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/documentation/lighting">Lighting</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/documentation/nodes">Observables &amp; Interaction</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/documentation/plot_method_signatures">Plot Method Signatures</a></div></li>
-<li><div class="tocitem-container"><a  href="/dev/documentation/predefined_themes">Predefined themes</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/documentation/recipes">Plot Recipes</a></div></li>
-<li><div class="tocitem-container"><a  href="/dev/documentation/remote">Using Makie on a remote server</a></div></li>
+<li><div class="tocitem-container"><a  href="/dev/documentation/remote">Remote servers</a></div></li>
 <li><div class="tocitem-container"><a  href="/dev/documentation/scenes">Scenes</a></div></li>
-<li><div class="tocitem-container"><a  href="/dev/documentation/theming">Theming figures</a></div></li>
-<li><div class="tocitem-container"><a  href="/dev/documentation/wglmakie">How to use JSServe &#43; WGLMakie</a></div></li>
+<li><input class="collapse-toggle" id="menuitem-4-18" type="checkbox" ><div class="tocitem-container"><label class="tocexpander" for="menuitem-4-18"><i class="docs-chevron"></i></label><a  href="/dev/documentation/theming">Theming</a></div><ul><li><div class="tocitem-container"><a  href="/dev/documentation/theming/predefined_themes">Predefined themes</a></div></li>
+</ul></li>
 </ul></li>
 </ul>
         </div>
@@ -185,26 +192,35 @@
   </div>
 
 <h2 id="examples"><a href="#examples" class="header-anchor">Examples</a></h2>
+<h3 id="matrix"><a href="#matrix" class="header-anchor">Matrix</a></h3>
 <pre><code class="language-julia">using CairoMakie
 
-fig, ax, sp &#61; series&#40;rand&#40;4, 10&#41;, labels&#61;&#91;&quot;label &#36;i&quot; for i in 1:4&#93;&#41;
+data &#61; cumsum&#40;randn&#40;4, 101&#41;, dims &#61; 2&#41;
+
+fig, ax, sp &#61; series&#40;data, labels&#61;&#91;&quot;label &#36;i&quot; for i in 1:4&#93;&#41;
 axislegend&#40;ax&#41;
 fig</code></pre></p>
 <p>
-  <a id="example_3729404729527696848">
-   <img src="/dev/assets/examples/plotting_functions/series/code/output/example_3729404729527696848.png" alt=""> 
+  <a id="example_11866413747547264012">
+   <img src="/dev/assets/examples/plotting_functions/series/code/output/example_11866413747547264012.png" alt=""> 
   </a>
   
-<pre><code class="language-julia">series&#40;&#91;Point2f0.&#40;1:10, rand&#40;10&#41;&#41; for i in 1:4&#93;, markersize&#61;5, color&#61;:Set1&#41;</code></pre></p>
+<h3 id="vector_of_vectors"><a href="#vector_of_vectors" class="header-anchor">Vector of vectors</a></h3>
+<pre><code class="language-julia">pointvectors &#61; &#91;Point2f0.&#40;1:100, cumsum&#40;randn&#40;100&#41;&#41;&#41; for i in 1:4&#93;
+
+series&#40;pointvectors, markersize&#61;5, color&#61;:Set1&#41;</code></pre></p>
 <p>
-  <a id="example_15251793183710726321">
-   <img src="/dev/assets/examples/plotting_functions/series/code/output/example_15251793183710726321.png" alt=""> 
+  <a id="example_13983186440731460821">
+   <img src="/dev/assets/examples/plotting_functions/series/code/output/example_13983186440731460821.png" alt=""> 
   </a>
   
-<pre><code class="language-julia">series&#40;LinRange&#40;0, 1, 10&#41;, rand&#40;4, 10&#41;, solid_color&#61;:black&#41;</code></pre></p>
+<h3 id="vector_and_matrix"><a href="#vector_and_matrix" class="header-anchor">Vector and matrix</a></h3>
+<pre><code class="language-julia">data &#61; cumsum&#40;randn&#40;4, 101&#41;, dims &#61; 2&#41;
+
+series&#40;0:0.1:10, data, solid_color&#61;:black&#41;</code></pre></p>
 <p>
-  <a id="example_10807172229731087287">
-   <img src="/dev/assets/examples/plotting_functions/series/code/output/example_10807172229731087287.png" alt=""> 
+  <a id="example_8661798765127785560">
+   <img src="/dev/assets/examples/plotting_functions/series/code/output/example_8661798765127785560.png" alt=""> 
   </a>
   
 <div class="page-foot">
